@@ -1,0 +1,5 @@
+metric,value
+clean_observations,42843
+unique_sensors,5
+min_timestamp,2023-05-06 08:42:45+10:00
+max_timestamp,2026-04-22 23:12:41+10:00

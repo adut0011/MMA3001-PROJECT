@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/MMA3001_Project
+plugins: platformdirs-4.13.5, anyio-4.15.1, typeguard-4.6.0, langsmith-0.14.11
+collecting ... collected 5 items
+
+tests/test_project.py::test_linear_interpolation_exact_on_line PASSED    [ 20%]
+tests/test_project.py::test_cubic_spline_exact_on_cubic_polynomial PASSED [ 40%]
+tests/test_project.py::test_interpolation_rejects_duplicate_timestamps PASSED [ 60%]
+tests/test_project.py::test_time_split_zero_leakage PASSED               [ 80%]
+tests/test_project.py::test_metrics_accuracy PASSED                      [100%]
+
+============================== 5 passed in 1.42s ===============================
