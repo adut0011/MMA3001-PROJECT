@@ -8,7 +8,7 @@ An investigation evaluating 1D numerical interpolation versus multivariate machi
 Building Management Systems (BMS) rely on continuous indoor telemetry to modulate ventilation dampers and maintain air quality. Contiguous telemetry dropouts (from wireless packet loss or device outages) blind closed-loop control systems.
 
 * **Target Output:** Carbon Dioxide ($CO_2$) concentration in parts-per-million ($\text{ppm}$), bounded within physical domain $[350, 5000]\text{ ppm}$.
-* **Input Features:** Ambient temperature ($^\circ\text{C}$), relative humidity ($\%RH$), barometric pressure ($\text{hPa}$), particulate matter ($\text{PM}_1, \text{PM}_{2.5}, \text{PM}_4, \text{PM}_{10}$ in $\mu\text{g/m}^3$), diurnal temporal harmonics ($\sin/\cos$ hour encodings), and causal backward finite-difference rates ($dT/dt$, $dRH/dt$).
+* **Input Features:** Ambient temperature (°C), relative humidity (%RH), barometric pressure (hPa), particulate matter (PM1, PM2.5, PM4, PM10 in µg/m³), diurnal temporal harmonics (sin/cos hour encodings), and causal backward finite-difference rates (dT/dt, dRH/dt).
 * **Methods Evaluated:** Naive mean baseline, Piecewise Linear Interpolation, Cubic Spline Interpolation, Ridge Regression, and Random Forest Regression ($B=60$).
 
 ---
